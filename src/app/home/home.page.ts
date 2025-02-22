@@ -16,3 +16,6 @@ export class HomePage {
     console.warn(this.userInfo)
   }
 }
+
+
+   

@@ -16,6 +16,7 @@ export class AuthService {
       GoogleAuth.initialize()
     })
    }
+   
    async googleSignIn() {
     this.googleUser = await GoogleAuth.signIn();
    return await this.googleUser
